@@ -1,0 +1,40 @@
+/* ко всем элементам */
+* {
+
+}
+
+/*  */
+body {
+    background: #eee;
+}
+
+/* Class */
+.card {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px; 
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.html {
+    background: orange;
+    color: white;
+}
+
+.css {
+    background: blue;
+    color: white;
+}
+
+/* ID */
+#header {
+    background: #ddd;
+    padding: 10px;
+}
+
+#header, .card {
+    margin-bottom: 10px;
+}
