@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 750px;
+            margin: auto;
+        } 
+
+        .box {
+            background: darkorchid;
+            color: #fff;
+
+            /* padding: 15px; указанное значение со всех сторон*/
+            /* padding: 15px 40px; слнва и справа */
+            /* top>right>bottom>left */
+            /* padding: 15px 40px 25px 30px; */
+            /* padding-top: 15px;
+            padding-right: 40px;
+            padding-bottom: 25px;
+            padding-left: 30px; */
+            padding: 15px;
+
+            border: 4px solid red;
+
+            /* для margin можно делать отдельно сторонам как и для pading */
+            margin: 10px;
+        }
+
+        .blocks {
+            width: 100%;
+        }
+
+        .blocks .block {
+            width: 25%;
+            background: #000;
+            height: 50px;
+            float: left;
+            border: 4px solid green;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+
+    <div class="body"></div>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae harum accusamus aperiam, adipisci veritatis eos voluptates eaque eligendi quaerat dicta distinctio obcaecati? Vero id corrupti quam numquam, doloribus quis!</p>
+        </div>
+        
+        <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae harum accusamus aperiam, adipisci veritatis eos voluptates eaque eligendi quaerat dicta distinctio obcaecati? Vero id corrupti quam numquam, doloribus quis!</p>
+        </div>
+    
+    </div>
+
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+    
+</body>
+</html>
