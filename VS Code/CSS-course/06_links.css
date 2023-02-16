@@ -1,0 +1,39 @@
+a {
+    color: #333;
+    text-decoration: none;   
+    /* transition: all .2s; */
+}
+
+/* когда наводим курсор на элемент */
+a:hover {
+    color: orange;
+    font-size: 2rem;
+}
+
+/* цвет ссылки на которую уже заходил 
+a:visited {
+    color: red;
+}*/
+
+a:active {
+    color: blue;
+}
+
+/* .css:hover {
+    background: red;
+} */
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: orange;
+}
